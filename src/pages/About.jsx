@@ -12,7 +12,7 @@ import {
     return (
       <section className='max-container'>
         <h1 className='head-text'>
-          Hello, I'm{" "}
+          Hola, Soy{" "}
           <span className='blue-gradient_text font-semibold drop-shadow'>
             {" "}
             Jean
@@ -22,12 +22,12 @@ import {
   
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            Software Engineer based in Venezuela, specializing in frontend developer
+            Un desarrollador FullStack viviendo en Venezuela, especializado en React.js
           </p>
         </div>
   
         <div className='py-10 flex flex-col'>
-          <h3 className='subhead-text'>My Skills</h3>
+          <h3 className='subhead-text'>Mis habilidades</h3>
   
           <div className='mt-16 flex flex-wrap gap-12'>
             {skills.map((skill) => (
@@ -46,11 +46,10 @@ import {
         </div>
   
         <div className='py-16'>
-          <h3 className='subhead-text'>Work Experience.</h3>
+          <h3 className='subhead-text'>Experiencia Laboral.</h3>
           <div className='mt-5 flex flex-col gap-3 text-slate-500'>
             <p>
-              I've worked with all sorts of companies, leveling up my skills and
-              teaming up with smart people. Here's the rundown:
+              He trabajado de manera freelance con diferentes clientes de manera remota:
             </p>
           </div>
   

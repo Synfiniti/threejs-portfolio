@@ -23,7 +23,14 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    mysql,
+    python,
+    django,
+    photoshop,
+    illustrator,
+    after,
+    premiere
 } from "../assets/icons";
 
 export const skills = [
@@ -63,16 +70,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -93,11 +90,6 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -106,60 +98,66 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
+        imageUrl: photoshop,
+        name: "Photoshop",
+        type: "Frontend",
+    },
+    {
+        imageUrl: illustrator,
+        name: "Illustrator",
+        type: "Frontend",
+    },
+    {
+        imageUrl: after,
+        name: "After Effects",
+        type: "Frontend",
+    },
+    {
+        imageUrl: premiere,
+        name: "Premiere",
+        type: "Frontend",
+    },
+
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Desarrollador Web Fullstack",
+        company_name: "U.E Humanitas",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Marzo 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollé un sistema interno de cobranza, utilizando Django en el backend y React.js en el frontend",
+            "Implementé un diseño responsivo para garantizar la compatibilidad entre navegadores",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Desarrollador Web Fullstack",
+        company_name: "Parrino Tecno",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Septiembre 2023 - Act",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Desarrollé un e-commerce utilizando Django, Django REST para el backend y React.js para el frontend",
+            "Manteminiento del e-commerce y actualización del stock del inventario",
         ],
     },
 ];
@@ -173,12 +171,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Synfiniti',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/jean-gutierrez-rivas/',
     }
 ];
 
@@ -186,43 +184,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'React Expense Tracker',
+        description: 'Es una app web que calcula la tasa de interés y las cuotas a pagar dependiendo de la cantidad de dinero que pidas prestado y el tiempo en que quieras pagar.',
+        link: 'https://github.com/Synfiniti/react-expense-tracker',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Stack Spotify Clone',
+        description: 'Desarrollé una app web clon de Spotify, página de inicio moderna, reproductor de música completo, búsqueda, letras, funciones de exploración de canciones, búsqueda, música popular a tu alrededor, listas de éxitos mundiales. ',
+        link: 'https://github.com/Synfiniti/spotify-clone',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'App Web CRM',
+        description: 'Realicé una app web CRM en los los usuarios puede registrar clientes potenciales con diferentes estados y también organizar los datos relevantes de todos sus contactos',
+        link: 'https://github.com/Synfiniti/CRM-DJANGO',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Mobile APP Pomodoro',
+        description: 'Es una aplicación para dispositivo iOS y Android que nos va a permitir contar el tiempo en el que queremos concentrarnos en algo. ',
+        link: 'https://github.com/Synfiniti/pomodoro-react-native',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'E-commerce',
+        description: 'E-commerce que contiene registro de usuario, autenticación de usuarios, carrito de compras, pasarela de pago, modo nocturno/claro, panel de administrador.',
+        link: 'https://github.com/Synfiniti/ecommerce-django-react',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Django CRUD App',
+        description: 'Es una aplicación web/CRUD completo que permite llevar un registro de tareas pendientes por realizar y tareas completadas. La app cuenta funcionalidades como autenticación de usuario, login, register y rutas protegidas. ',
+        link: 'https://github.com/Synfiniti/django-auth-crud',
     }
 ];

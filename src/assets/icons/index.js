@@ -24,10 +24,20 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
+import mysql from './mysql.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import python from './python.svg'
+import django from './django.svg'
+import photoshop from './photoshop.svg'
+import illustrator from './illustrator.svg'
+import after from './after.svg'
+import premiere from './premiere.svg'
 
 export {
+    premiere,
+    after,
+    illustrator,
     css,
     express,
     git,
@@ -55,5 +65,9 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    mysql,
+    python,
+    django,
+    photoshop
 }
